@@ -53,8 +53,8 @@ X_pca = pca.fit_transform(X_scaled)
 explained_variance = pca.explained_variance_ratio_
 print("Explained Variance Ratio for each Principal Component:", explained_variance)
 print("Total Explained Variance:", sum(explained_variance))
-print("\nName: DEEPAK B")
-print("Reg. No: 25018314\n")
+print("\nName: Sri Jai V")
+print("Reg. No: 2501437\n")
 
 pca_df = pd.DataFrame(X_pca, columns=['PC1', 'PC2'])
 
@@ -68,7 +68,10 @@ plt.show()
 ```
 
 ## Output:
-<img width="915" height="706" alt="Screenshot 2026-03-28 020426" src="https://github.com/user-attachments/assets/79cec710-07f8-45f5-b8ff-7c6a831fb100" />
+<img width="1270" height="303" alt="Screenshot 2026-03-31 004701" src="https://github.com/user-attachments/assets/6e792980-4bf0-4796-8b82-4a188a847c70" />
+<img width="1322" height="752" alt="Screenshot 2026-03-31 004721" src="https://github.com/user-attachments/assets/cb885c74-61d4-429b-96e4-bb1df6d157f2" />
+
+
 
 
 
